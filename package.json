@@ -1,0 +1,25 @@
+{
+  "name": "jeff-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viniciuuz/jeff-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viniciuuz/jeff-portfolio/issues"
+  },
+  "homepage": "https://github.com/Viniciuuz/jeff-portfolio#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "xml2json": "^0.12.0"
+  }
+}
