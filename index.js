@@ -3,8 +3,10 @@ const axios = require('axios');
 const app = express();
 const path = require('path');
 var parser = require('xml2json');
+var cors = require('cors')
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(cors())
 
 function view(name) {
   return path.join(__dirname, 'views', name);
